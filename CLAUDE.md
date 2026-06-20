@@ -2,7 +2,7 @@
 
 **Owner:** Dr. Rich Huebner (rich.huebner@nantasket.ai)
 **Plugin:** `doctoral-brain` v1.0.0
-**Purpose:** A personal knowledge management system and skill library for doctoral learners — from first-year coursework through dissertation defense.
+**Purpose:** A skill library for doctoral learners — from first-year coursework through dissertation defense.
 
 ---
 
