@@ -104,7 +104,7 @@ Adapt skill depth and emphasis based on the learner's current phase:
 
 ## Skill Invocation Conventions
 
-Skills are stored in the `skills/` directory. Each skill file is a `.md` file with YAML frontmatter.
+Each skill lives in its own folder under `skills/<domain>/<skill-name>/SKILL.md`. When a trigger phrase is detected, read the corresponding SKILL.md file and follow its instructions exactly.
 
 ### Standard Skill Frontmatter
 ```yaml
@@ -119,9 +119,58 @@ output_type: [draft | framework | checklist | template | plan | reflection]
 ---
 ```
 
-### Skill File Naming
-- Use lowercase kebab-case: `research-gap.md`, `writing-session-plan.md`
-- Group by domain using subfolders: `skills/research/`, `skills/writing/`, `skills/productivity/`, `skills/knowledge/`
+### Skill File Index
+
+**Research & Scholarship**
+| Skill | File |
+|-------|------|
+| `research-gap` | `skills/research/research-gap/SKILL.md` |
+| `problem-statement` | `skills/research/problem-statement/SKILL.md` |
+| `research-questions` | `skills/research/research-questions/SKILL.md` |
+| `literature-review` | `skills/research/literature-review/SKILL.md` |
+| `source-synthesis` | `skills/research/source-synthesis/SKILL.md` |
+| `methodology` | `skills/research/methodology/SKILL.md` |
+| `theoretical-framework` | `skills/research/theoretical-framework/SKILL.md` |
+| `dissertation-outline` | `skills/research/dissertation-outline/SKILL.md` |
+| `chapter-draft` | `skills/research/chapter-draft/SKILL.md` |
+| `apa-citations` | `skills/research/apa-citations/SKILL.md` |
+| `peer-review-response` | `skills/research/peer-review-response/SKILL.md` |
+
+**Writing & Communication**
+| Skill | File |
+|-------|------|
+| `academic-voice` | `skills/writing/academic-voice/SKILL.md` |
+| `argument-builder` | `skills/writing/argument-builder/SKILL.md` |
+| `abstract-writer` | `skills/writing/abstract-writer/SKILL.md` |
+| `concept-explainer` | `skills/writing/concept-explainer/SKILL.md` |
+
+**Planning, Scheduling & Productivity**
+| Skill | File |
+|-------|------|
+| `dissertation-timeline` | `skills/productivity/dissertation-timeline/SKILL.md` |
+| `writing-session-plan` | `skills/productivity/writing-session-plan/SKILL.md` |
+| `weekly-review` | `skills/productivity/weekly-review/SKILL.md` |
+| `goal-setting` | `skills/productivity/goal-setting/SKILL.md` |
+| `reading-plan` | `skills/productivity/reading-plan/SKILL.md` |
+| `writing-habit` | `skills/productivity/writing-habit/SKILL.md` |
+
+**Focus & Motivation**
+| Skill | File |
+|-------|------|
+| `motivation-reset` | `skills/focus/motivation-reset/SKILL.md` |
+| `procrastination-audit` | `skills/focus/procrastination-audit/SKILL.md` |
+| `deep-focus-protocol` | `skills/focus/deep-focus-protocol/SKILL.md` |
+| `energy-management` | `skills/focus/energy-management/SKILL.md` |
+| `celebrate-progress` | `skills/focus/celebrate-progress/SKILL.md` |
+
+**Knowledge Management (Second Brain)**
+| Skill | File |
+|-------|------|
+| `note-to-insight` | `skills/knowledge/note-to-insight/SKILL.md` |
+| `concept-map` | `skills/knowledge/concept-map/SKILL.md` |
+| `knowledge-gap-journal` | `skills/knowledge/knowledge-gap-journal/SKILL.md` |
+| `source-log` | `skills/knowledge/source-log/SKILL.md` |
+| `idea-capture` | `skills/knowledge/idea-capture/SKILL.md` |
 
 ---
 
@@ -129,16 +178,47 @@ output_type: [draft | framework | checklist | template | plan | reflection]
 
 ```
 doctoral-second-brain/
-├── CLAUDE.md                    ← This file — plugin instructions and skill registry
+├── CLAUDE.md                         ← This file — plugin instructions and skill registry
 ├── .claude-plugin/
-│   ├── plugin.json              ← Plugin metadata
-│   └── marketplace.json         ← Marketplace listing
+│   ├── plugin.json                   ← Plugin metadata
+│   └── marketplace.json              ← Marketplace listing
 └── skills/
-    ├── research/                ← Research & scholarship skills
-    ├── writing/                 ← Academic writing skills
-    ├── productivity/            ← Planning, scheduling, timeline skills
-    ├── focus/                   ← Motivation, focus, energy management skills
-    └── knowledge/               ← Second brain, note-taking, source management skills
+    ├── research/
+    │   ├── research-gap/SKILL.md
+    │   ├── problem-statement/SKILL.md
+    │   ├── research-questions/SKILL.md
+    │   ├── literature-review/SKILL.md
+    │   ├── source-synthesis/SKILL.md
+    │   ├── methodology/SKILL.md
+    │   ├── theoretical-framework/SKILL.md
+    │   ├── dissertation-outline/SKILL.md
+    │   ├── chapter-draft/SKILL.md
+    │   ├── apa-citations/SKILL.md
+    │   └── peer-review-response/SKILL.md
+    ├── writing/
+    │   ├── academic-voice/SKILL.md
+    │   ├── argument-builder/SKILL.md
+    │   ├── abstract-writer/SKILL.md
+    │   └── concept-explainer/SKILL.md
+    ├── productivity/
+    │   ├── dissertation-timeline/SKILL.md
+    │   ├── writing-session-plan/SKILL.md
+    │   ├── weekly-review/SKILL.md
+    │   ├── goal-setting/SKILL.md
+    │   ├── reading-plan/SKILL.md
+    │   └── writing-habit/SKILL.md
+    ├── focus/
+    │   ├── motivation-reset/SKILL.md
+    │   ├── procrastination-audit/SKILL.md
+    │   ├── deep-focus-protocol/SKILL.md
+    │   ├── energy-management/SKILL.md
+    │   └── celebrate-progress/SKILL.md
+    └── knowledge/
+        ├── note-to-insight/SKILL.md
+        ├── concept-map/SKILL.md
+        ├── knowledge-gap-journal/SKILL.md
+        ├── source-log/SKILL.md
+        └── idea-capture/SKILL.md
 ```
 
 ---
