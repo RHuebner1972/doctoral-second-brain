@@ -124,53 +124,53 @@ output_type: [draft | framework | checklist | template | plan | reflection]
 **Research & Scholarship**
 | Skill | File |
 |-------|------|
-| `research-gap` | `skills/research/research-gap/SKILL.md` |
-| `problem-statement` | `skills/research/problem-statement/SKILL.md` |
-| `research-questions` | `skills/research/research-questions/SKILL.md` |
-| `literature-review` | `skills/research/literature-review/SKILL.md` |
-| `source-synthesis` | `skills/research/source-synthesis/SKILL.md` |
-| `methodology` | `skills/research/methodology/SKILL.md` |
-| `theoretical-framework` | `skills/research/theoretical-framework/SKILL.md` |
-| `dissertation-outline` | `skills/research/dissertation-outline/SKILL.md` |
-| `chapter-draft` | `skills/research/chapter-draft/SKILL.md` |
-| `apa-citations` | `skills/research/apa-citations/SKILL.md` |
-| `peer-review-response` | `skills/research/peer-review-response/SKILL.md` |
+| `research-gap` | `skills/research-gap/SKILL.md` |
+| `problem-statement` | `skills/problem-statement/SKILL.md` |
+| `research-questions` | `skills/research-questions/SKILL.md` |
+| `literature-review` | `skills/literature-review/SKILL.md` |
+| `source-synthesis` | `skills/source-synthesis/SKILL.md` |
+| `methodology` | `skills/methodology/SKILL.md` |
+| `theoretical-framework` | `skills/theoretical-framework/SKILL.md` |
+| `dissertation-outline` | `skills/dissertation-outline/SKILL.md` |
+| `chapter-draft` | `skills/chapter-draft/SKILL.md` |
+| `apa-citations` | `skills/apa-citations/SKILL.md` |
+| `peer-review-response` | `skills/peer-review-response/SKILL.md` |
 
 **Writing & Communication**
 | Skill | File |
 |-------|------|
-| `academic-voice` | `skills/writing/academic-voice/SKILL.md` |
-| `argument-builder` | `skills/writing/argument-builder/SKILL.md` |
-| `abstract-writer` | `skills/writing/abstract-writer/SKILL.md` |
-| `concept-explainer` | `skills/writing/concept-explainer/SKILL.md` |
+| `academic-voice` | `skills/academic-voice/SKILL.md` |
+| `argument-builder` | `skills/argument-builder/SKILL.md` |
+| `abstract-writer` | `skills/abstract-writer/SKILL.md` |
+| `concept-explainer` | `skills/concept-explainer/SKILL.md` |
 
 **Planning, Scheduling & Productivity**
 | Skill | File |
 |-------|------|
-| `dissertation-timeline` | `skills/productivity/dissertation-timeline/SKILL.md` |
-| `writing-session-plan` | `skills/productivity/writing-session-plan/SKILL.md` |
-| `weekly-review` | `skills/productivity/weekly-review/SKILL.md` |
-| `goal-setting` | `skills/productivity/goal-setting/SKILL.md` |
-| `reading-plan` | `skills/productivity/reading-plan/SKILL.md` |
-| `writing-habit` | `skills/productivity/writing-habit/SKILL.md` |
+| `dissertation-timeline` | `skills/dissertation-timeline/SKILL.md` |
+| `writing-session-plan` | `skills/writing-session-plan/SKILL.md` |
+| `weekly-review` | `skills/weekly-review/SKILL.md` |
+| `goal-setting` | `skills/goal-setting/SKILL.md` |
+| `reading-plan` | `skills/reading-plan/SKILL.md` |
+| `writing-habit` | `skills/writing-habit/SKILL.md` |
 
 **Focus & Motivation**
 | Skill | File |
 |-------|------|
-| `motivation-reset` | `skills/focus/motivation-reset/SKILL.md` |
-| `procrastination-audit` | `skills/focus/procrastination-audit/SKILL.md` |
-| `deep-focus-protocol` | `skills/focus/deep-focus-protocol/SKILL.md` |
-| `energy-management` | `skills/focus/energy-management/SKILL.md` |
-| `celebrate-progress` | `skills/focus/celebrate-progress/SKILL.md` |
+| `motivation-reset` | `skills/motivation-reset/SKILL.md` |
+| `procrastination-audit` | `skills/procrastination-audit/SKILL.md` |
+| `deep-focus-protocol` | `skills/deep-focus-protocol/SKILL.md` |
+| `energy-management` | `skills/energy-management/SKILL.md` |
+| `celebrate-progress` | `skills/celebrate-progress/SKILL.md` |
 
 **Knowledge Management (Second Brain)**
 | Skill | File |
 |-------|------|
-| `note-to-insight` | `skills/knowledge/note-to-insight/SKILL.md` |
-| `concept-map` | `skills/knowledge/concept-map/SKILL.md` |
-| `knowledge-gap-journal` | `skills/knowledge/knowledge-gap-journal/SKILL.md` |
-| `source-log` | `skills/knowledge/source-log/SKILL.md` |
-| `idea-capture` | `skills/knowledge/idea-capture/SKILL.md` |
+| `note-to-insight` | `skills/note-to-insight/SKILL.md` |
+| `concept-map` | `skills/concept-map/SKILL.md` |
+| `knowledge-gap-journal` | `skills/knowledge-gap-journal/SKILL.md` |
+| `source-log` | `skills/source-log/SKILL.md` |
+| `idea-capture` | `skills/idea-capture/SKILL.md` |
 
 ---
 
@@ -183,42 +183,37 @@ doctoral-second-brain/
 │   ├── plugin.json                   ← Plugin metadata
 │   └── marketplace.json              ← Marketplace listing
 └── skills/
-    ├── research/
-    │   ├── research-gap/SKILL.md
-    │   ├── problem-statement/SKILL.md
-    │   ├── research-questions/SKILL.md
-    │   ├── literature-review/SKILL.md
-    │   ├── source-synthesis/SKILL.md
-    │   ├── methodology/SKILL.md
-    │   ├── theoretical-framework/SKILL.md
-    │   ├── dissertation-outline/SKILL.md
-    │   ├── chapter-draft/SKILL.md
-    │   ├── apa-citations/SKILL.md
-    │   └── peer-review-response/SKILL.md
-    ├── writing/
-    │   ├── academic-voice/SKILL.md
-    │   ├── argument-builder/SKILL.md
-    │   ├── abstract-writer/SKILL.md
-    │   └── concept-explainer/SKILL.md
-    ├── productivity/
-    │   ├── dissertation-timeline/SKILL.md
-    │   ├── writing-session-plan/SKILL.md
-    │   ├── weekly-review/SKILL.md
-    │   ├── goal-setting/SKILL.md
-    │   ├── reading-plan/SKILL.md
-    │   └── writing-habit/SKILL.md
-    ├── focus/
-    │   ├── motivation-reset/SKILL.md
-    │   ├── procrastination-audit/SKILL.md
-    │   ├── deep-focus-protocol/SKILL.md
-    │   ├── energy-management/SKILL.md
-    │   └── celebrate-progress/SKILL.md
-    └── knowledge/
-        ├── note-to-insight/SKILL.md
-        ├── concept-map/SKILL.md
-        ├── knowledge-gap-journal/SKILL.md
-        ├── source-log/SKILL.md
-        └── idea-capture/SKILL.md
+    ├── research-gap/SKILL.md
+    ├── problem-statement/SKILL.md
+    ├── research-questions/SKILL.md
+    ├── literature-review/SKILL.md
+    ├── source-synthesis/SKILL.md
+    ├── methodology/SKILL.md
+    ├── theoretical-framework/SKILL.md
+    ├── dissertation-outline/SKILL.md
+    ├── chapter-draft/SKILL.md
+    ├── apa-citations/SKILL.md
+    ├── peer-review-response/SKILL.md
+    ├── academic-voice/SKILL.md
+    ├── argument-builder/SKILL.md
+    ├── abstract-writer/SKILL.md
+    ├── concept-explainer/SKILL.md
+    ├── dissertation-timeline/SKILL.md
+    ├── writing-session-plan/SKILL.md
+    ├── weekly-review/SKILL.md
+    ├── goal-setting/SKILL.md
+    ├── reading-plan/SKILL.md
+    ├── writing-habit/SKILL.md
+    ├── motivation-reset/SKILL.md
+    ├── procrastination-audit/SKILL.md
+    ├── deep-focus-protocol/SKILL.md
+    ├── energy-management/SKILL.md
+    ├── celebrate-progress/SKILL.md
+    ├── note-to-insight/SKILL.md
+    ├── concept-map/SKILL.md
+    ├── knowledge-gap-journal/SKILL.md
+    ├── source-log/SKILL.md
+    └── idea-capture/SKILL.md
 ```
 
 ---
