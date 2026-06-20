@@ -1,5 +1,162 @@
 {
   "name": "doctoral-brain",
   "description": "A personal knowledge management plugin and large set of skills and tools for doctoral students.",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "skills": [
+    {
+      "name": "research-gap",
+      "description": "Identify white space in a field by analyzing literature clusters, methodological blind spots, population gaps, and temporal gaps.",
+      "source": "../skills/research-gap/SKILL.md"
+    },
+    {
+      "name": "problem-statement",
+      "description": "Craft a tight, scholarly problem statement aligned with the gap and grounded in evidence.",
+      "source": "../skills/problem-statement/SKILL.md"
+    },
+    {
+      "name": "research-questions",
+      "description": "Generate and refine central and sub-questions that are answerable, bounded, and aligned with methodology.",
+      "source": "../skills/research-questions/SKILL.md"
+    },
+    {
+      "name": "literature-review",
+      "description": "Plan, structure, and write a literature review using thematic, chronological, or conceptual frameworks.",
+      "source": "../skills/literature-review/SKILL.md"
+    },
+    {
+      "name": "source-synthesis",
+      "description": "Extract themes, tensions, and convergences across multiple sources.",
+      "source": "../skills/source-synthesis/SKILL.md"
+    },
+    {
+      "name": "methodology",
+      "description": "Select and justify a research methodology aligned with the problem, questions, and epistemological stance.",
+      "source": "../skills/methodology/SKILL.md"
+    },
+    {
+      "name": "theoretical-framework",
+      "description": "Identify, explain, and apply a theoretical or conceptual framework to anchor the study.",
+      "source": "../skills/theoretical-framework/SKILL.md"
+    },
+    {
+      "name": "dissertation-outline",
+      "description": "Scaffold a full dissertation using standard chapter conventions with section-level guidance.",
+      "source": "../skills/dissertation-outline/SKILL.md"
+    },
+    {
+      "name": "chapter-draft",
+      "description": "Generate scholarly first drafts of any dissertation chapter using the learner's inputs.",
+      "source": "../skills/chapter-draft/SKILL.md"
+    },
+    {
+      "name": "apa-citations",
+      "description": "Format citations and references in APA 7th edition.",
+      "source": "../skills/apa-citations/SKILL.md"
+    },
+    {
+      "name": "peer-review-response",
+      "description": "Draft point-by-point responses to committee or peer reviewer feedback.",
+      "source": "../skills/peer-review-response/SKILL.md"
+    },
+    {
+      "name": "academic-voice",
+      "description": "Edit or rewrite content for scholarly register, hedging, objectivity, and precision.",
+      "source": "../skills/academic-voice/SKILL.md"
+    },
+    {
+      "name": "argument-builder",
+      "description": "Evaluate and strengthen the logical structure of a scholarly argument.",
+      "source": "../skills/argument-builder/SKILL.md"
+    },
+    {
+      "name": "abstract-writer",
+      "description": "Generate structured abstracts for dissertations, journals, and conferences.",
+      "source": "../skills/abstract-writer/SKILL.md"
+    },
+    {
+      "name": "concept-explainer",
+      "description": "Translate complex academic concepts into clear language, then back into scholarly prose.",
+      "source": "../skills/concept-explainer/SKILL.md"
+    },
+    {
+      "name": "dissertation-timeline",
+      "description": "Build a realistic, week-by-week dissertation timeline with milestones and checkpoints.",
+      "source": "../skills/dissertation-timeline/SKILL.md"
+    },
+    {
+      "name": "writing-session-plan",
+      "description": "Structure a focused writing session with goals, warm-up, deep work blocks, and a wrap-up review.",
+      "source": "../skills/writing-session-plan/SKILL.md"
+    },
+    {
+      "name": "weekly-review",
+      "description": "Run a structured weekly review: what was completed, what slipped, what's next, and what needs adjustment.",
+      "source": "../skills/weekly-review/SKILL.md"
+    },
+    {
+      "name": "goal-setting",
+      "description": "Define and prioritize doctoral goals at the semester, month, and week level.",
+      "source": "../skills/goal-setting/SKILL.md"
+    },
+    {
+      "name": "reading-plan",
+      "description": "Build a curated, time-bound reading plan aligned with the current phase of the dissertation.",
+      "source": "../skills/reading-plan/SKILL.md"
+    },
+    {
+      "name": "writing-habit",
+      "description": "Design a sustainable daily writing practice with accountability structures and streak-building tactics.",
+      "source": "../skills/writing-habit/SKILL.md"
+    },
+    {
+      "name": "motivation-reset",
+      "description": "Reorient the learner to their purpose, values, and progress using structured reflection prompts.",
+      "source": "../skills/motivation-reset/SKILL.md"
+    },
+    {
+      "name": "procrastination-audit",
+      "description": "Diagnose the root cause of procrastination and prescribe a specific, low-friction next action.",
+      "source": "../skills/procrastination-audit/SKILL.md"
+    },
+    {
+      "name": "deep-focus-protocol",
+      "description": "Run a structured pre-session focus protocol: environment, intention, constraints, and a commitment device.",
+      "source": "../skills/deep-focus-protocol/SKILL.md"
+    },
+    {
+      "name": "energy-management",
+      "description": "Map the learner's energy patterns to high-value doctoral tasks to protect peak cognition.",
+      "source": "../skills/energy-management/SKILL.md"
+    },
+    {
+      "name": "celebrate-progress",
+      "description": "Acknowledge and anchor progress with a deliberate, structured celebration to build doctoral identity.",
+      "source": "../skills/celebrate-progress/SKILL.md"
+    },
+    {
+      "name": "note-to-insight",
+      "description": "Transform rough reading notes into structured, linked insight artifacts.",
+      "source": "../skills/note-to-insight/SKILL.md"
+    },
+    {
+      "name": "concept-map",
+      "description": "Generate a textual concept map showing relationships between key constructs in the study.",
+      "source": "../skills/concept-map/SKILL.md"
+    },
+    {
+      "name": "knowledge-gap-journal",
+      "description": "Maintain a running journal of open questions and knowledge gaps to drive purposeful reading.",
+      "source": "../skills/knowledge-gap-journal/SKILL.md"
+    },
+    {
+      "name": "source-log",
+      "description": "Build and maintain an annotated source log with relevance ratings and synthesis notes.",
+      "source": "../skills/source-log/SKILL.md"
+    },
+    {
+      "name": "idea-capture",
+      "description": "Quickly format and file a raw idea into a retrievable, linkable knowledge artifact.",
+      "source": "../skills/idea-capture/SKILL.md"
+    }
+  ]
 }
