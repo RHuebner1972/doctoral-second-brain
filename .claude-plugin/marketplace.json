@@ -1,0 +1,12 @@
+{
+  "name": "doctoral-brain",
+  "owner": { "name": "Dr. Rich Huebner", "email": "rich.huebner@nantasket.ai" },
+  "description": "Marketplace for the Doctoral Brain — a personal knowledge management plugin for doctoral students.",
+  "plugins": [
+    {
+      "name": "dr",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
