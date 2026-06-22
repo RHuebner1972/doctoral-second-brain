@@ -1,17 +1,7 @@
 ---
 name: dissertation-outline
 description: Scaffold a full dissertation using standard five-chapter conventions with section-level guidance.
-triggers:
-  - dissertation outline
-  - chapter structure
-  - what goes in chapter 1
-  - five-chapter model
-  - dissertation structure
-  - organize my dissertation
-  - chapter outline
-  - what chapters do I need
-phase: proposal
-output_type: template
+when_to_use: Use when the user wants to outline or structure their dissertation, understand what goes in each chapter, scaffold a five-chapter model, or organize their dissertation sections.
 ---
 
 # Dissertation Outline

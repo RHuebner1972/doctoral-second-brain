@@ -1,21 +1,7 @@
 ---
 name: chapter-draft
 description: Generate scholarly first drafts of any dissertation chapter section using the learner's inputs.
-triggers:
-  - write chapter
-  - draft this section
-  - help me write
-  - chapter 1
-  - chapter 2
-  - chapter 3
-  - chapter 4
-  - chapter 5
-  - draft my introduction
-  - write my background
-  - draft the findings
-  - write the discussion
-phase: all
-output_type: draft
+when_to_use: Use when the user wants to write or draft any dissertation chapter or section, including Chapter 1–5, the introduction, background, findings, or discussion.
 ---
 
 # Chapter Draft

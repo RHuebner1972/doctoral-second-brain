@@ -1,19 +1,7 @@
 ---
 name: writing-habit
 description: Design a sustainable daily writing practice with accountability structures and streak-building tactics.
-triggers:
-  - writing habit
-  - daily writing
-  - consistency
-  - I never write
-  - build a habit
-  - write every day
-  - writing routine
-  - writing practice
-  - how do I write consistently
-  - establish a writing habit
-phase: all
-output_type: plan
+when_to_use: Use when the user wants to build a daily writing habit, establish a writing routine, write more consistently, create accountability structures, or stop waiting for motivation to start.
 ---
 
 # Writing Habit

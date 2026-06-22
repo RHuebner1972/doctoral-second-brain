@@ -1,18 +1,7 @@
 ---
 name: concept-map
 description: Generate a textual concept map showing relationships between key constructs in the dissertation study.
-triggers:
-  - concept map
-  - map my ideas
-  - connect these concepts
-  - visual outline
-  - relationships between ideas
-  - map my constructs
-  - how do these ideas connect
-  - show me the relationships
-  - organize my thinking
-phase: all
-output_type: framework
+when_to_use: Use when the user wants to map their ideas, understand relationships between concepts, create a visual or textual outline of constructs, or organize their theoretical thinking.
 ---
 
 # Concept Map

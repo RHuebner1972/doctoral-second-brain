@@ -1,17 +1,7 @@
 ---
 name: literature-review
 description: Plan, structure, and write a literature review using thematic, chronological, or conceptual frameworks.
-triggers:
-  - lit review
-  - literature review
-  - synthesize sources
-  - review the literature
-  - thematic synthesis
-  - organize my literature
-  - write my literature review
-  - chapter 2
-phase: proposal
-output_type: draft
+when_to_use: Use when the user wants to plan, structure, or write a literature review, synthesize sources, organize the literature, write Chapter 2, or conduct a thematic synthesis.
 ---
 
 # Literature Review

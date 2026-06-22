@@ -1,19 +1,7 @@
 ---
 name: deep-focus-protocol
 description: Run a structured pre-session focus protocol covering environment, intention, constraints, and a commitment device.
-triggers:
-  - focus
-  - distracted
-  - can't concentrate
-  - deep work
-  - flow state
-  - eliminate distractions
-  - help me focus
-  - get into focus mode
-  - prepare to write
-  - pre-writing ritual
-phase: all
-output_type: plan
+when_to_use: Use when the user wants to focus, is distracted or cannot concentrate, wants to enter deep work or flow state, prepare for a writing session, or set up a pre-writing ritual.
 ---
 
 # Deep Focus Protocol

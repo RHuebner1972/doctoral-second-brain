@@ -1,11 +1,12 @@
 {
   "name": "doctoral-brain",
   "owner": { "name": "Dr. Rich Huebner", "email": "rich.huebner@nantasket.ai" },
-  "description": "The Doctoral Brain — a personal knowledge management plugin and skills for doctoral students.",
+  "description": "A skill library for doctoral learners — from first-year coursework through dissertation defense.",
   "plugins": [
     {
-      "name": "docbrain",
+      "name": "doctoral-brain",
       "source": "./",
+      "description": "A skill library for doctoral learners — from first-year coursework through dissertation defense.",
       "category": "productivity"
     }
   ]

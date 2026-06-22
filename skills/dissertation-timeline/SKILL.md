@@ -1,19 +1,7 @@
 ---
 name: dissertation-timeline
 description: Build a realistic, week-by-week dissertation timeline with milestones and checkpoints.
-triggers:
-  - timeline
-  - schedule
-  - when should I
-  - how long will this take
-  - dissertation plan
-  - milestone plan
-  - dissertation schedule
-  - how do I plan my dissertation
-  - when will I finish
-  - map out my dissertation
-phase: all
-output_type: plan
+when_to_use: Use when the user wants to build a dissertation timeline, schedule their work, plan milestones, estimate how long completion will take, or map out their doctoral path week by week.
 ---
 
 # Dissertation Timeline

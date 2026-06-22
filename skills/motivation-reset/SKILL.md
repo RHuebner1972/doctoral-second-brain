@@ -1,21 +1,7 @@
 ---
 name: motivation-reset
 description: Reorient the learner to their purpose, values, and progress using structured reflection prompts when motivation has collapsed.
-triggers:
-  - I'm stuck
-  - I don't want to write
-  - imposter syndrome
-  - why am I doing this
-  - burned out
-  - motivation
-  - I hate my dissertation
-  - I can't do this
-  - losing motivation
-  - doctoral fatigue
-  - I want to quit
-  - feel like a fraud
-phase: all
-output_type: reflection
+when_to_use: Use when the user feels stuck, burned out, or unmotivated, experiences imposter syndrome, questions why they are in the program, says they want to quit, or expresses doctoral fatigue.
 ---
 
 # Motivation Reset

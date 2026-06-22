@@ -1,19 +1,7 @@
 ---
 name: energy-management
 description: Map the learner's energy patterns to high-value doctoral tasks to protect peak cognition for deep work.
-triggers:
-  - tired
-  - energy
-  - when should I write
-  - peak hours
-  - cognitive load
-  - overwhelmed
-  - no energy
-  - best time to write
-  - exhausted
-  - manage my energy
-phase: all
-output_type: plan
+when_to_use: Use when the user is tired, overwhelmed, or exhausted, wants to know the best time to write, needs to manage cognitive load, or wants to align tasks with their energy levels.
 ---
 
 # Energy Management

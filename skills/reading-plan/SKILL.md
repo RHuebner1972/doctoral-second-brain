@@ -1,18 +1,7 @@
 ---
 name: reading-plan
 description: Build a curated, time-bound reading plan aligned with the current phase of the dissertation.
-triggers:
-  - reading list
-  - what should I read
-  - reading schedule
-  - how do I keep up with literature
-  - reading plan
-  - literature search
-  - find sources
-  - what articles should I read
-  - build my reading list
-phase: all
-output_type: plan
+when_to_use: Use when the user wants to build a reading list, plan their literature reading schedule, find sources, keep up with the literature, or organize what to read next.
 ---
 
 # Reading Plan

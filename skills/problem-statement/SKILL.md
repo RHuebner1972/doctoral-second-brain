@@ -1,16 +1,7 @@
 ---
 name: problem-statement
 description: Craft a tight, scholarly problem statement aligned with the identified gap and grounded in evidence.
-triggers:
-  - problem statement
-  - write my problem
-  - articulate the problem
-  - what's the problem
-  - state the problem
-  - chapter 1 problem
-  - background of the problem
-phase: proposal
-output_type: draft
+when_to_use: Use when the user wants to write or refine a problem statement, articulate the research problem, state the problem, or draft the background of the problem for Chapter 1.
 ---
 
 # Problem Statement

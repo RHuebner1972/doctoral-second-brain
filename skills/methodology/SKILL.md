@@ -1,21 +1,7 @@
 ---
 name: methodology
 description: Select and justify a research methodology aligned with the problem, research questions, and epistemological stance.
-triggers:
-  - methodology
-  - research design
-  - qualitative vs quantitative
-  - which method
-  - mixed methods
-  - case study
-  - phenomenology
-  - grounded theory
-  - narrative inquiry
-  - research approach
-  - how should I study this
-  - what design should I use
-phase: proposal
-output_type: framework
+when_to_use: Use when the user wants to select a research methodology, design their study, compare qualitative vs. quantitative approaches, or choose mixed methods, case study, phenomenology, grounded theory, narrative inquiry, or another research design.
 ---
 
 # Methodology Selection and Justification

@@ -1,18 +1,7 @@
 ---
 name: knowledge-gap-journal
 description: Maintain a running journal of open questions and knowledge gaps to drive purposeful reading and inquiry.
-triggers:
-  - what don't I know
-  - knowledge gaps
-  - things to explore
-  - open questions
-  - what should I still learn
-  - questions I can't answer
-  - gaps in my knowledge
-  - what do I still need to understand
-  - things to research
-phase: all
-output_type: template
+when_to_use: Use when the user wants to capture what they don't know, track knowledge gaps, maintain open questions, or identify things they still need to research or understand.
 ---
 
 # Knowledge Gap Journal

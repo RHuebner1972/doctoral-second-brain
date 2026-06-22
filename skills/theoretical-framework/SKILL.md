@@ -1,18 +1,7 @@
 ---
 name: theoretical-framework
 description: Identify, explain, and apply a theoretical or conceptual framework to anchor the dissertation study.
-triggers:
-  - theoretical framework
-  - conceptual framework
-  - which theory
-  - lens
-  - framework selection
-  - what theory should I use
-  - anchor my study
-  - theoretical lens
-  - grounding theory
-phase: proposal
-output_type: framework
+when_to_use: Use when the user wants to identify or apply a theoretical or conceptual framework, choose a lens, select a theory, anchor their study in a framework, or asks what theory they should use.
 ---
 
 # Theoretical / Conceptual Framework

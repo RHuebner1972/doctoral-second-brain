@@ -1,19 +1,7 @@
 ---
 name: concept-explainer
 description: Translate complex academic concepts into clear language, then back into scholarly prose.
-triggers:
-  - explain this concept
-  - what is
-  - define
-  - help me understand
-  - what does this mean
-  - explain this theory
-  - I don't understand
-  - break this down
-  - explain in plain language
-  - what is the difference between
-phase: all
-output_type: framework
+when_to_use: Use when the user wants a concept explained, asks what something means or is, wants a definition, needs academic material broken down into plain language, or asks about the difference between two ideas.
 ---
 
 # Concept Explainer

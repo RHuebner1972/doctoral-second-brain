@@ -1,17 +1,7 @@
 ---
 name: research-gap
 description: Identify white space in a field by analyzing literature clusters, methodological blind spots, population gaps, and temporal gaps.
-triggers:
-  - find a gap
-  - what's missing
-  - gap analysis
-  - underexplored area
-  - research gap
-  - where is the gap
-  - what hasn't been studied
-  - unexplored topic
-phase: foundations
-output_type: framework
+when_to_use: Use when the user asks to find a gap, run a gap analysis, identify what is missing or underexplored in the literature, or asks where there is space for new research.
 ---
 
 # Research Gap Analysis

@@ -1,19 +1,7 @@
 ---
 name: source-log
 description: Build and maintain an annotated source log with relevance ratings and synthesis notes.
-triggers:
-  - track my sources
-  - source tracker
-  - annotated bibliography
-  - what have I read
-  - organize my sources
-  - source list
-  - bibliography
-  - log a source
-  - add to my source list
-  - manage my references
-phase: all
-output_type: template
+when_to_use: Use when the user wants to track, organize, or log their sources, build an annotated bibliography, manage their reference list, or review what they have read.
 ---
 
 # Source Log

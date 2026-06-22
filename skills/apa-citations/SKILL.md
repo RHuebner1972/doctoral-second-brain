@@ -1,19 +1,7 @@
 ---
 name: apa-citations
 description: Format citations and references in APA 7th edition for any source type.
-triggers:
-  - cite this
-  - APA format
-  - reference list
-  - in-text citation
-  - format this source
-  - APA 7th
-  - how do I cite
-  - reference entry
-  - citation format
-  - bibliography
-phase: all
-output_type: template
+when_to_use: Use when the user wants to format a citation, create a reference list entry, write an in-text citation, cite any source type, or follow APA 7th edition style.
 ---
 
 # APA 7th Edition Citations

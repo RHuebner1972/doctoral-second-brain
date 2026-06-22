@@ -1,17 +1,7 @@
 ---
 name: note-to-insight
 description: Transform rough reading notes into structured, linked insight artifacts ready for the second brain.
-triggers:
-  - process this note
-  - what does this mean
-  - connect this to my work
-  - refine my notes
-  - process my reading notes
-  - turn these notes into something useful
-  - organize my notes
-  - make sense of these notes
-phase: all
-output_type: framework
+when_to_use: Use when the user wants to process reading notes, turn notes into something useful, organize or make sense of notes, or connect notes to their dissertation work.
 ---
 
 # Note to Insight

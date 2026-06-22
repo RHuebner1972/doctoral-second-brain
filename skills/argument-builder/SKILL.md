@@ -1,19 +1,7 @@
 ---
 name: argument-builder
 description: Evaluate and strengthen the logical structure of a scholarly argument.
-triggers:
-  - build my argument
-  - logical flow
-  - strengthen this argument
-  - is this coherent
-  - argument structure
-  - does this make sense
-  - help me argue
-  - strengthen my reasoning
-  - logical structure
-  - is my argument valid
-phase: all
-output_type: framework
+when_to_use: Use when the user wants to strengthen an argument, check logical flow, improve argument structure, or assess whether reasoning is coherent and valid.
 ---
 
 # Argument Builder

@@ -1,19 +1,7 @@
 ---
 name: academic-voice
 description: Edit or rewrite content for scholarly register, hedging, objectivity, and precision.
-triggers:
-  - academic writing
-  - scholarly tone
-  - too informal
-  - sound more academic
-  - passive vs active
-  - academic voice
-  - scholarly register
-  - rewrite this academically
-  - make this more formal
-  - edit for tone
-phase: all
-output_type: draft
+when_to_use: Use when the user wants to make writing more academic, improve scholarly tone, edit for register and precision, fix informal language, or rewrite content with objectivity and hedging.
 ---
 
 # Academic Voice

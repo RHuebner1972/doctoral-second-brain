@@ -1,20 +1,7 @@
 ---
 name: celebrate-progress
 description: Acknowledge and anchor doctoral milestones with a deliberate, structured celebration that builds doctoral identity.
-triggers:
-  - I finished a chapter
-  - I passed my proposal
-  - hit a milestone
-  - I defended
-  - completed something
-  - milestone achieved
-  - I submitted
-  - IRB approved
-  - data collection done
-  - dissertation submitted
-  - I passed my defense
-phase: all
-output_type: reflection
+when_to_use: Use when the user has completed a chapter, passed a milestone, defended, received IRB approval, submitted their dissertation, or wants to acknowledge and anchor progress.
 ---
 
 # Celebrate Progress

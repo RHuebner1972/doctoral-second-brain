@@ -1,18 +1,7 @@
 ---
 name: peer-review-response
 description: Draft point-by-point responses to dissertation committee or peer reviewer feedback.
-triggers:
-  - respond to reviewer
-  - committee feedback
-  - revision response
-  - how do I address this
-  - reviewer comments
-  - respond to feedback
-  - committee revision
-  - chair feedback
-  - dissertation revisions
-phase: all
-output_type: draft
+when_to_use: Use when the user wants to respond to committee or reviewer feedback, write revision responses, address chair or committee comments, or prepare dissertation revisions.
 ---
 
 # Peer Review Response

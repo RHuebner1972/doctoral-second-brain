@@ -8,5 +8,5 @@
     "email": "rich.huebner@nantasket.ai"
   },
   "keywords": ["doctoral", "dissertation", "research", "writing", "productivity", "second-brain"],
-  "skills": "./skills/"
+  "license": "MIT"
 }

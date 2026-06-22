@@ -1,18 +1,7 @@
 ---
 name: weekly-review
 description: Run a structured weekly review covering what was completed, what slipped, what's next, and what needs adjustment.
-triggers:
-  - weekly review
-  - check in
-  - how am I doing
-  - progress review
-  - what did I accomplish
-  - end of week review
-  - doctoral check-in
-  - review my week
-  - weekly recap
-phase: all
-output_type: reflection
+when_to_use: Use when the user wants to do a weekly check-in, review doctoral progress, reflect on what was accomplished, assess what slipped, or plan the week ahead.
 ---
 
 # Weekly Review

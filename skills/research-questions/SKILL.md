@@ -1,18 +1,7 @@
 ---
 name: research-questions
 description: Generate and refine central and sub-questions that are answerable, bounded, and aligned with methodology.
-triggers:
-  - research questions
-  - RQs
-  - central question
-  - sub-questions
-  - write my research questions
-  - quantitative RQs
-  - qualitative RQs
-  - mixed methods questions
-  - hypothesis
-phase: proposal
-output_type: framework
+when_to_use: Use when the user wants to write or refine research questions, develop a central question or sub-questions, formulate hypotheses, or generate quantitative, qualitative, or mixed-methods RQs.
 ---
 
 # Research Questions

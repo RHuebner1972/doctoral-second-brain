@@ -1,18 +1,7 @@
 ---
 name: writing-session-plan
 description: Structure a focused writing session with goals, warm-up, deep work blocks, and a wrap-up review.
-triggers:
-  - writing session
-  - I have 2 hours
-  - what should I write today
-  - pomodoro
-  - focus session
-  - help me plan my writing time
-  - I have an hour to write
-  - writing block plan
-  - productive writing session
-phase: all
-output_type: plan
+when_to_use: Use when the user has a block of time to write and wants to structure it, plan a focused writing session, use timed blocks or pomodoro techniques, or maximize a productive writing period.
 ---
 
 # Writing Session Plan

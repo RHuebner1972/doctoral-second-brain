@@ -1,19 +1,7 @@
 ---
 name: procrastination-audit
 description: Diagnose the root cause of procrastination and prescribe a specific, low-friction next action.
-triggers:
-  - procrastinating
-  - can't start
-  - avoidance
-  - paralyzed
-  - don't know where to start
-  - avoiding my dissertation
-  - keep putting it off
-  - can't make myself write
-  - stalling
-  - I keep avoiding
-phase: all
-output_type: reflection
+when_to_use: Use when the user is procrastinating, cannot start writing, is avoiding the dissertation, feels paralyzed, keeps putting off work, or does not know where to begin.
 ---
 
 # Procrastination Audit

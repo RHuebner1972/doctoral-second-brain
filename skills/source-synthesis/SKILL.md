@@ -1,17 +1,7 @@
 ---
 name: source-synthesis
 description: Extract themes, tensions, and convergences across multiple sources to build a synthetic narrative.
-triggers:
-  - synthesize these sources
-  - compare these articles
-  - connect these papers
-  - what do these say together
-  - synthesize my readings
-  - find the themes
-  - what do these sources have in common
-  - analyze these articles
-phase: all
-output_type: framework
+when_to_use: Use when the user wants to synthesize multiple sources, compare articles, find common themes, analyze a set of readings, or understand what several papers say together.
 ---
 
 # Source Synthesis

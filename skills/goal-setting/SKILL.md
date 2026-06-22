@@ -1,19 +1,7 @@
 ---
 name: goal-setting
 description: Define and prioritize doctoral goals at the semester, month, and week level.
-triggers:
-  - set goals
-  - doctoral goals
-  - semester goals
-  - what should I focus on
-  - OKRs
-  - priorities
-  - goal planning
-  - dissertation goals
-  - what are my goals
-  - academic goals
-phase: all
-output_type: plan
+when_to_use: Use when the user wants to set doctoral or dissertation goals, define priorities, plan a semester, identify what to focus on, or create academic OKRs.
 ---
 
 # Goal Setting

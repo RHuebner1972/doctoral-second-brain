@@ -1,16 +1,7 @@
 ---
 name: abstract-writer
 description: Generate structured and unstructured abstracts for dissertations, journals, and conferences.
-triggers:
-  - write an abstract
-  - dissertation abstract
-  - conference abstract
-  - summarize my study
-  - abstract for journal
-  - write my abstract
-  - abstract draft
-phase: all
-output_type: draft
+when_to_use: Use when the user wants to write an abstract for their dissertation, a journal submission, or a conference, or needs to summarize their study concisely.
 ---
 
 # Abstract Writer

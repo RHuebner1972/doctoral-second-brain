@@ -1,19 +1,7 @@
 ---
 name: idea-capture
 description: Quickly format and file a raw idea into a retrievable, linkable knowledge artifact.
-triggers:
-  - I just had an idea
-  - capture this thought
-  - quick note
-  - shower thought
-  - don't forget this
-  - write this down
-  - capture this
-  - quick capture
-  - just thought of something
-  - save this idea
-phase: all
-output_type: template
+when_to_use: Use when the user has a sudden idea, wants to capture a thought quickly, needs to write something down before forgetting it, or wants to save a raw idea for later retrieval.
 ---
 
 # Idea Capture
