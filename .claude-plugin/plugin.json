@@ -1,12 +1,45 @@
 {
   "name": "doctoral-brain",
   "displayName": "Doctoral Second Brain",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A skill library for doctoral learners — from first-year coursework through dissertation defense.",
   "author": {
     "name": "Dr. Rich Huebner",
     "email": "rich.huebner@nantasket.ai"
   },
   "keywords": ["doctoral", "dissertation", "research", "writing", "productivity", "second-brain"],
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./skills/abstract-writer",
+    "./skills/academic-voice",
+    "./skills/apa-citations",
+    "./skills/argument-builder",
+    "./skills/celebrate-progress",
+    "./skills/chapter-draft",
+    "./skills/concept-explainer",
+    "./skills/concept-map",
+    "./skills/deep-focus-protocol",
+    "./skills/dissertation-outline",
+    "./skills/dissertation-timeline",
+    "./skills/energy-management",
+    "./skills/goal-setting",
+    "./skills/idea-capture",
+    "./skills/knowledge-gap-journal",
+    "./skills/literature-review",
+    "./skills/methodology",
+    "./skills/motivation-reset",
+    "./skills/note-to-insight",
+    "./skills/peer-review-response",
+    "./skills/problem-statement",
+    "./skills/procrastination-audit",
+    "./skills/reading-plan",
+    "./skills/research-gap",
+    "./skills/research-questions",
+    "./skills/source-log",
+    "./skills/source-synthesis",
+    "./skills/theoretical-framework",
+    "./skills/weekly-review",
+    "./skills/writing-habit",
+    "./skills/writing-session-plan"
+  ]
 }
