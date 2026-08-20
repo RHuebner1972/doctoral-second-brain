@@ -7,7 +7,7 @@ A Claude Code plugin providing 31 skills for doctoral learners — from first-ye
 ### From this repo (self-hosted marketplace)
 
 ```
-/plugin marketplace add <your-github-username>/doctoral-second-brain
+/plugin marketplace add RHuebner1972/doctoral-second-brain
 /plugin install doctoral-brain@doctoral-brain
 ```
 
