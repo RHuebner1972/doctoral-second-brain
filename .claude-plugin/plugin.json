@@ -1,14 +1,14 @@
 {
   "name": "doctoral-brain",
   "displayName": "Doctoral Second Brain",
-  "version": "1.1.0",
-  "description": "A skill library for doctoral learners — from first-year coursework through dissertation defense.",
+  "version": "1.2.0",
+  "description": "A paid skill library for doctoral learners — from first-year coursework through dissertation defense.",
   "author": {
     "name": "Dr. Rich Huebner",
     "email": "rich.huebner@nantasket.ai"
   },
   "keywords": ["doctoral", "dissertation", "research", "writing", "productivity", "second-brain"],
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "skills": [
     "./skills/abstract-writer",
     "./skills/academic-voice",
@@ -36,6 +36,7 @@
     "./skills/irb-research-ethics",
     "./skills/jacobs-problem-statement-eval",
     "./skills/knowledge-gap-journal",
+    "./skills/license-check",
     "./skills/literature-review",
     "./skills/mental-health-wellbeing",
     "./skills/methods-chapter",

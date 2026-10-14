@@ -1,7 +1,8 @@
 # Doctoral Second Brain — Claude Plugin
 
 **Owner:** Dr. Rich Huebner (rich.huebner@nantasket.ai)
-**Plugin:** `doctoral-brain` v1.1.0
+**Plugin:** `doctoral-brain` v1.2.0
+**License:** Commercial EULA — individual subscribers only
 **Purpose:** A skill library for doctoral learners — from first-year coursework through dissertation defense.
 
 ---
@@ -105,6 +106,7 @@ Diagnostic skills that evaluate a draft problem statement without rewriting it. 
 | `knowledge-gap-journal` | "what don't I know," "knowledge gaps," "things to explore," "open questions" | Maintain a running journal of open questions and knowledge gaps to drive purposeful reading |
 | `source-log` | "track my sources," "source tracker," "annotated bibliography," "what have I read" | Build and maintain an annotated source log with relevance ratings and synthesis notes |
 | `idea-capture` | "I just had an idea," "capture this thought," "quick note," "shower thought," "don't forget this" | Quickly format and file a raw idea into a retrievable, linkable knowledge artifact |
+| `license-check` | "is my license valid," "subscription status," "do I need to renew," "license token" | Soft-check subscriber access — honesty tooling, not DRM |
 
 ---
 
@@ -141,6 +143,9 @@ When evaluating a draft problem statement with the lens skills:
 3. Run `lens-6-adversarial-committee` last only after earlier lenses have been used (or warn if they have not).
 4. Lens skills diagnose and surface issues — they do **not** rewrite the student's problem statement.
 5. Use `jacobs-problem-statement-evaluator` when a scored Jacobs (2011) rubric is requested (especially for DBA contexts).
+
+### Subscription awareness
+This plugin is distributed to **paying individual subscribers**. If the learner asks about access, renewals, or a missing `DOCTORAL_BRAIN_LICENSE_TOKEN`, invoke `license-check`. Do not claim local files can be remotely disabled. GitHub team access is what gates installs and updates.
 
 ---
 
@@ -243,6 +248,7 @@ output_type: [draft | framework | checklist | template | plan | reflection]
 | `knowledge-gap-journal` | `skills/knowledge-gap-journal/SKILL.md` |
 | `source-log` | `skills/source-log/SKILL.md` |
 | `idea-capture` | `skills/idea-capture/SKILL.md` |
+| `license-check` | `skills/license-check/SKILL.md` |
 
 ---
 
@@ -251,6 +257,9 @@ output_type: [draft | framework | checklist | template | plan | reflection]
 ```
 doctoral-second-brain/
 ├── CLAUDE.md                         ← This file — plugin instructions and skill registry
+├── LICENSE                           ← Commercial EULA (subscribers only)
+├── TERMS.md
+├── apps/billing/                     ← Stripe entitlements + GitHub access
 ├── .claude-plugin/
 │   ├── plugin.json                   ← Plugin metadata
 │   └── marketplace.json              ← Marketplace listing
@@ -307,7 +316,8 @@ doctoral-second-brain/
     ├── concept-map/SKILL.md
     ├── knowledge-gap-journal/SKILL.md
     ├── source-log/SKILL.md
-    └── idea-capture/SKILL.md
+    ├── idea-capture/SKILL.md
+    └── license-check/SKILL.md
 ```
 
 ---

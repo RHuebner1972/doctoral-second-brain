@@ -1,1 +1,11 @@
 .copilot-specs-cache/
+node_modules/
+.next/
+.env
+.env.local
+.env.*.local
+apps/billing/.next/
+apps/billing/node_modules/
+dist/
+coverage/
+*.log

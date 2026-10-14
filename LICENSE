@@ -1,21 +1,95 @@
-MIT License
+DOCTORAL SECOND BRAIN
+END USER LICENSE AGREEMENT
 
-Copyright (c) 2025 Dr. Rich Huebner
+Copyright (c) 2026 Dr. Rich Huebner / Nantasket AI
+All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This End User License Agreement (“Agreement”) is a legal agreement between you
+(“you” or “Subscriber”) and Dr. Rich Huebner / Nantasket AI (“Licensor”) for
+the Doctoral Second Brain plugin, skill library, documentation, and related
+materials (the “Software”).
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+By purchasing a subscription, accessing a private distribution of the Software,
+or installing the Software, you agree to this Agreement.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. GRANT OF LICENSE
+
+Subject to an active, paid subscription and this Agreement, Licensor grants you
+a limited, non-exclusive, non-transferable, non-sublicensable, revocable license
+to install and use the Software for your personal doctoral study and research.
+
+This license is for a single individual Subscriber. Institutional, cohort, or
+multi-seat use requires a separate written agreement.
+
+2. SUBSCRIPTION REQUIRED
+
+Access to install and receive updates is conditioned on an active subscription
+in good standing. Licensor may grant or revoke source-repository access
+(including GitHub team or collaborator access) to match your entitlement
+status.
+
+If your subscription ends, is canceled, or is not paid:
+
+  (a) your license to receive updates and new installs ends immediately when
+      the paid period (and any stated grace period) expires;
+  (b) Licensor will revoke private repository and marketplace access; and
+  (c) any local copies that remain on your machine are not licensed for
+      redistribution, sharing, publication, or continued commercial use.
+
+3. RESTRICTIONS
+
+You may not:
+
+  (a) copy, share, publish, sublicense, sell, rent, or otherwise redistribute
+      the Software, in whole or in part, including skill files, prompts, or
+      documentation, except as required for your own personal use;
+  (b) post the Software to a public repository, marketplace, or file-sharing
+      service;
+  (c) remove or alter copyright, license, or attribution notices;
+  (d) use the Software to provide a competing skill library or commercial
+      service that redistributes Licensor’s materials; or
+  (e) circumvent entitlement, licensing, or access-control mechanisms.
+
+4. OWNERSHIP
+
+The Software is licensed, not sold. Licensor retains all right, title, and
+interest in the Software, including all intellectual property rights. No rights
+are granted except as expressly stated in this Agreement.
+
+5. NO ACADEMIC MISREPRESENTATION
+
+The Software is a research and writing aid. You remain solely responsible for
+the originality, accuracy, citations, and authorship of work you submit to a
+university, journal, or other academic body. The Software must not be used to
+misrepresent authorship or to fabricate sources or findings.
+
+6. DISCLAIMER OF WARRANTIES
+
+THE SOFTWARE IS PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+7. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR SHALL NOT BE LIABLE FOR ANY
+INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS
+OF PROFITS, DATA, OR GOODWILL, ARISING FROM YOUR USE OF THE SOFTWARE. LICENSOR’S
+TOTAL LIABILITY SHALL NOT EXCEED THE AMOUNT YOU PAID FOR THE SUBSCRIPTION IN
+THE THREE (3) MONTHS PRECEDING THE CLAIM.
+
+8. TERMINATION
+
+This Agreement terminates automatically if you breach it or when your
+subscription ends. Upon termination you must stop using the Software for any
+purpose other than retaining a personal archival copy, and you must not
+redistribute it. Sections 3–7 and 9 survive termination.
+
+9. GENERAL
+
+This Agreement is the entire agreement regarding the Software and supersedes
+prior or contemporaneous understandings on this subject. If a provision is
+unenforceable, the remainder remains in effect. Failure to enforce a provision
+is not a waiver. This Agreement is governed by the laws of the Commonwealth of
+Massachusetts, excluding conflict-of-law rules.
+
+For licensing questions: rich.huebner@nantasket.ai
