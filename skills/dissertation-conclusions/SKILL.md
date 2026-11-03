@@ -8,6 +8,8 @@ output_type: [draft, framework, template, checklist]
 
 # Chapter 5 (or Final Chapter): Conclusions—Closing Strong
 
+> **Learner Profile.** If a `<doctoral-brain-learner-profile>` block is in context, take degree type, field, phase, methodology, framework, style guide, and committee preferences from it and do not ask for them. Ask only for what this skill needs that the profile lacks. A message from the learner in this conversation overrides the profile. If no profile is in context and this skill needs those facts, offer `/doctoral-brain:setup` once, then continue with what the learner gives you.
+
 Your Conclusion is your final argument. It says: "Here's what we learned. Here's what it means. Here's why you should care. Here's what should happen next." A strong conclusion synthesizes findings, connects to your opening problem, and articulates implications that extend beyond your study. This skill guides you through crafting a Conclusion that lands firmly and leaves readers thinking.
 
 ## Part 1: Architecture of an Effective Conclusion
@@ -560,3 +562,18 @@ Your Conclusion is your final argument. It synthesizes what you learned, explain
 6. **Complete the story** — Your conclusion should resolve the opening problem
 
 Your dissertation should feel like a complete story: here's a problem that matters, here's what I learned about it, here's what it means, here's what should happen next. That's the power of a strong conclusion.
+
+## Self-check — required before you hand this back
+
+Run this after drafting the conclusion and before writing the output. The output is incomplete without the Self-check block.
+
+1. Re-read the conclusion draft once as the committee reader, not the writer.
+2. Score it against **Part 6: Conclusion Revision Checklist** above, item by item.
+3. For each item that fails: fix it in the draft if the fix needs nothing from the learner; otherwise leave the draft alone and record it as a flag.
+4. Close the output with the Self-check block in exactly this shape:
+
+**Self-check**
+- Passed: <the items that pass, comma-separated>
+- Fixed: <one line per change you made and why; "none" if nothing>
+- Flagged for the learner: <one line per item you could not resolve without their input; "none" if nothing>
+- Confidence: <High | Medium | Low> — <one sentence on what would raise it>

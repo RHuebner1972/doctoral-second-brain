@@ -1,13 +1,20 @@
 {
   "name": "doctoral-brain",
   "displayName": "Doctoral Second Brain",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "A paid skill library for doctoral learners — from first-year coursework through dissertation defense.",
   "author": {
     "name": "Dr. Rich Huebner",
     "email": "rich.huebner@nantasket.ai"
   },
-  "keywords": ["doctoral", "dissertation", "research", "writing", "productivity", "second-brain"],
+  "keywords": [
+    "doctoral",
+    "dissertation",
+    "research",
+    "writing",
+    "productivity",
+    "second-brain"
+  ],
   "license": "SEE LICENSE IN LICENSE",
   "skills": [
     "./skills/abstract-writer",
@@ -39,8 +46,8 @@
     "./skills/license-check",
     "./skills/literature-review",
     "./skills/mental-health-wellbeing",
-    "./skills/methods-chapter",
     "./skills/methodology",
+    "./skills/methods-chapter",
     "./skills/motivation-reset",
     "./skills/note-to-insight",
     "./skills/peer-review-response",
@@ -51,6 +58,7 @@
     "./skills/problem-statement-lens-4-symptom-or-root-cause",
     "./skills/problem-statement-lens-5-assumption-excavation",
     "./skills/problem-statement-lens-6-adversarial-committee",
+    "./skills/problem-statement-review",
     "./skills/procrastination-audit",
     "./skills/proposal-writing-defense",
     "./skills/qualitative-analysis",
@@ -58,11 +66,16 @@
     "./skills/reading-plan",
     "./skills/research-gap",
     "./skills/research-questions",
+    "./skills/setup",
     "./skills/source-log",
     "./skills/source-synthesis",
     "./skills/theoretical-framework",
     "./skills/weekly-review",
     "./skills/writing-habit",
     "./skills/writing-session-plan"
-  ]
+  ],
+  "agents": [
+    "./agents/problem-statement-review.md"
+  ],
+  "hooks": "./hooks/hooks.json"
 }

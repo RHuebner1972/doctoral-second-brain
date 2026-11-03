@@ -6,6 +6,8 @@ when_to_use: Use when the user wants to write or draft any dissertation chapter 
 
 # Chapter Draft
 
+> **Learner Profile.** If a `<doctoral-brain-learner-profile>` block is in context, take degree type, field, phase, methodology, framework, style guide, and committee preferences from it and do not ask for them. Ask only for what this skill needs that the profile lacks. A message from the learner in this conversation overrides the profile. If no profile is in context and this skill needs those facts, offer `/doctoral-brain:setup` once, then continue with what the learner gives you.
+
 ## Purpose
 Produce a scholarly, dissertation-quality draft of any chapter section, tailored to the learner's topic, methodology, and research questions.
 
@@ -105,3 +107,19 @@ Before finalizing any draft, verify:
 3. **Draft notes** (callouts for sections that need expansion or verification)
 4. **Word count**
 5. **Next section** recommendation
+6. **Self-check** — the block defined in *Self-check — required before you hand this back*
+
+## Self-check — required before you hand this back
+
+Run this after drafting the section and before writing the output. The output is incomplete without the Self-check block.
+
+1. Re-read the draft section once as the committee reader, not the writer.
+2. Score it against the **Scholarly Register Checklist** above, item by item.
+3. For each item that fails: fix it in the draft if the fix needs nothing from the learner; otherwise leave the draft alone and record it as a flag.
+4. Close the output with the Self-check block in exactly this shape:
+
+**Self-check**
+- Passed: <the items that pass, comma-separated>
+- Fixed: <one line per change you made and why; "none" if nothing>
+- Flagged for the learner: <one line per item you could not resolve without their input; "none" if nothing>
+- Confidence: <High | Medium | Low> — <one sentence on what would raise it>

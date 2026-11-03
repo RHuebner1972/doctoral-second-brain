@@ -8,6 +8,8 @@ output_type: [framework, template, checklist, plan]
 
 # Interdisciplinary Bridging: Integrating Across Fields & Literatures
 
+> **Learner Profile.** If a `<doctoral-brain-learner-profile>` block is in context, take degree type, field, phase, methodology, framework, style guide, and committee preferences from it and do not ask for them. Ask only for what this skill needs that the profile lacks. A message from the learner in this conversation overrides the profile. If no profile is in context and this skill needs those facts, offer `/doctoral-brain:setup` once, then continue with what the learner gives you.
+
 Interdisciplinary research is increasingly valued—it combines strengths of multiple fields to address complex problems. But it's also challenging: disciplines have different languages, assumptions, methodologies, and publication norms. This skill guides you through bridging disciplines intentionally, translating concepts across fields, and positioning work that legitimately integrates multiple perspectives.
 
 ## Part 1: Clarifying Your Interdisciplinary Position

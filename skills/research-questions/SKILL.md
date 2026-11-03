@@ -6,6 +6,8 @@ when_to_use: Use when the user wants to write or refine research questions, deve
 
 # Research Questions
 
+> **Learner Profile.** If a `<doctoral-brain-learner-profile>` block is in context, take degree type, field, phase, methodology, framework, style guide, and committee preferences from it and do not ask for them. Ask only for what this skill needs that the profile lacks. A message from the learner in this conversation overrides the profile. If no profile is in context and this skill needs those facts, offer `/doctoral-brain:setup` once, then continue with what the learner gives you.
+
 ## Purpose
 Develop precisely worded, methodologically aligned research questions (and hypotheses where applicable) that are answerable, bounded, and directly traceable to the problem statement.
 
@@ -96,3 +98,19 @@ For quantitative: also list H₀ and H₁ for each RQ.
 3. **Hypotheses** (if quantitative or mixed)
 4. **Alignment check results** (pass/flag for each criterion)
 5. **Next step** — methodology selection or IRB considerations
+6. **Self-check** — the block defined in *Self-check — required before you hand this back*
+
+## Self-check — required before you hand this back
+
+Run this after drafting the research questions and before writing the output. The output is incomplete without the Self-check block.
+
+1. Re-read the research questions once as the committee reader, not the writer.
+2. Score it against **The Alignment Rule** and **Common Errors to Flag** above, item by item.
+3. For each item that fails: fix it in the draft if the fix needs nothing from the learner; otherwise leave the draft alone and record it as a flag.
+4. Close the output with the Self-check block in exactly this shape:
+
+**Self-check**
+- Passed: <the items that pass, comma-separated>
+- Fixed: <one line per change you made and why; "none" if nothing>
+- Flagged for the learner: <one line per item you could not resolve without their input; "none" if nothing>
+- Confidence: <High | Medium | Low> — <one sentence on what would raise it>

@@ -1,0 +1,16 @@
+{
+  "description": "Doctoral Second Brain: load the Learner Profile into context at session start so skills stop re-asking stable facts.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/load-profile.sh\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

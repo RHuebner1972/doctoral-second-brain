@@ -4,6 +4,7 @@ import { PortalButton } from "@/components/PortalButton";
 import { getEntitlement, getGithubLink, latestAccessGrant, listSubscriptions } from "@/lib/db";
 import { FEATURE_KEY } from "@/lib/env";
 import { pickBestSubscription } from "@/lib/entitlements";
+import { installOneLiners } from "@/lib/installers";
 import { redirect } from "next/navigation";
 
 export default async function DashboardPage() {
@@ -22,6 +23,7 @@ export default async function DashboardPage() {
   );
   const marketplace = process.env.PLUGIN_MARKETPLACE ?? "RHuebner1972/doctoral-second-brain";
   const installRef = process.env.PLUGIN_INSTALL_REF ?? "doctoral-brain@doctoral-brain";
+  const oneLiners = installOneLiners();
 
   return (
     <main className="panel">
@@ -68,6 +70,21 @@ export default async function DashboardPage() {
       {entitlement?.active ? (
         <>
           <h2>Install in Claude Code</h2>
+          <p>
+            Accept the GitHub invite (email or github.com/notifications), then paste one line into a
+            terminal. It signs you in to GitHub if needed, checks your access, and installs the plugin.
+          </p>
+          <p><strong>macOS / Linux</strong></p>
+          <pre><code>{oneLiners.bash}</code></pre>
+          <p><strong>Windows PowerShell</strong></p>
+          <pre><code>{oneLiners.powershell}</code></pre>
+          <p>
+            When it finishes, start Claude Code and run <code>/doctoral-brain:setup</code> to write your
+            Learner Profile once.
+          </p>
+
+          <details>
+            <summary>Manual steps (if you prefer not to run a script)</summary>
           <ol className="steps">
             <li>Accept the GitHub team or collaborator invite.</li>
             <li>Run <code>gh auth login</code> (or load an SSH key).</li>
@@ -78,6 +95,7 @@ export default async function DashboardPage() {
               Store the license token as <code>DOCTORAL_BRAIN_LICENSE_TOKEN</code> in your environment.
             </li>
           </ol>
+          </details>
         </>
       ) : (
         <p>

@@ -9,7 +9,14 @@ A paid Claude Code plugin for individual doctoral learners — from first-year c
 | Monthly | $29 / month |
 | Annual | $199 / year |
 
-Subscribe, connect GitHub, and install from the private marketplace. See [docs/INSTALL.md](docs/INSTALL.md).
+Subscribe, connect GitHub, accept the invite, then paste one line into a terminal (the dashboard shows it):
+
+```bash
+curl -fsSL https://<billing-site>/install.sh | bash      # macOS / Linux
+irm https://<billing-site>/install.ps1 | iex             # Windows PowerShell
+```
+
+Then, in Claude Code, run `/doctoral-brain:setup` once. Full steps and the manual path: [docs/INSTALL.md](docs/INSTALL.md).
 
 ## How access works
 
@@ -24,6 +31,13 @@ Claude’s plugin marketplace cannot charge money. Access control is the private
 ## Skills
 
 Once installed, invoke a skill with `/doctoral-brain:<skill-name>`. The library covers research and scholarship (including problem-statement lenses), writing, planning, focus and wellbeing, defense, publication, and second-brain knowledge work. Full registry: [CLAUDE.md](CLAUDE.md).
+
+## What is in 1.3.0
+
+- **Learner Profile.** `/doctoral-brain:setup` writes `~/.doctoral-brain/profile.md` once; a SessionStart hook loads it every session, and every skill reads it instead of re-asking about degree, field, methodology, phase, style guide, and committee.
+- **Independent six-lens review.** `/doctoral-brain:problem-statement-review` dispatches a subagent that runs Lenses 1–6 in fixed order in a fresh context and returns one consolidated memo. Diagnoses only; never rewrites.
+- **Self-check on drafting skills.** Problem statement, research questions, literature review, chapter draft, Chapter 1, Methods, conclusions, and abstract now end with a required Self-check block (Passed / Fixed / Flagged / Confidence) scored against the skill's own checklist.
+- **One-line installer.** The billing site serves `/install.sh` and `/install.ps1`; they check Claude Code and GitHub access, install the plugin, and save the HTTPS preference and license token.
 
 ## Operator docs
 

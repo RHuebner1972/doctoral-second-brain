@@ -8,6 +8,8 @@ output_type: [draft, framework, template]
 
 # Methods Chapter
 
+> **Learner Profile.** If a `<doctoral-brain-learner-profile>` block is in context, take degree type, field, phase, methodology, framework, style guide, and committee preferences from it and do not ask for them. Ask only for what this skill needs that the profile lacks. A message from the learner in this conversation overrides the profile. If no profile is in context and this skill needs those facts, offer `/doctoral-brain:setup` once, then continue with what the learner gives you.
+
 ## Purpose
 Produce a clear, rigorous Methods chapter that explains *what* you did, *how* you did it, *why* you chose this approach, and how you ensured quality and ethical standards. Your Methods chapter should be detailed enough that another researcher could replicate your study.
 
@@ -407,3 +409,18 @@ Every RQ should be answered; if a section of your methods doesn't connect to an 
 ✓ Ethical considerations are thoroughly addressed  
 ✓ Methods align with research questions  
 ✓ Any deviations from original proposal are acknowledged & justified
+
+## Self-check — required before you hand this back
+
+Run this after drafting the Methods chapter and before writing the output. The output is incomplete without the Self-check block.
+
+1. Re-read the Methods chapter draft once as the committee reader, not the writer.
+2. Score it against the **Methods Chapter Checklist** above, item by item.
+3. For each item that fails: fix it in the draft if the fix needs nothing from the learner; otherwise leave the draft alone and record it as a flag.
+4. Close the output with the Self-check block in exactly this shape:
+
+**Self-check**
+- Passed: <the items that pass, comma-separated>
+- Fixed: <one line per change you made and why; "none" if nothing>
+- Flagged for the learner: <one line per item you could not resolve without their input; "none" if nothing>
+- Confidence: <High | Medium | Low> — <one sentence on what would raise it>

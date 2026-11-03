@@ -8,6 +8,8 @@ output_type: [framework, checklist, template]
 
 # Committee & Advisor Relationship Management
 
+> **Learner Profile.** If a `<doctoral-brain-learner-profile>` block is in context, take degree type, field, phase, methodology, framework, style guide, and committee preferences from it and do not ask for them. Ask only for what this skill needs that the profile lacks. A message from the learner in this conversation overrides the profile. If no profile is in context and this skill needs those facts, offer `/doctoral-brain:setup` once, then continue with what the learner gives you.
+
 ## Purpose
 Establish and maintain productive relationships with advisors and committee members that support dissertation progress, facilitate feedback cycles, and resolve conflicts constructively.
 

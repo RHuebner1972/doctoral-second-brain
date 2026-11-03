@@ -1,7 +1,7 @@
 # Doctoral Second Brain — Claude Plugin
 
 **Owner:** Dr. Rich Huebner (rich.huebner@nantasket.ai)
-**Plugin:** `doctoral-brain` v1.2.0
+**Plugin:** `doctoral-brain` v1.3.0
 **License:** Commercial EULA — individual subscribers only
 **Purpose:** A skill library for doctoral learners — from first-year coursework through dissertation defense.
 
@@ -46,10 +46,11 @@ The guiding philosophy is **second brain thinking**: offload cognitive overhead 
 
 ### Problem Statement Evaluation
 
-Diagnostic skills that evaluate a draft problem statement without rewriting it. Run lenses in order (1→6); run Jacobs when a rubric score against Jacobs (2011) is needed.
+Diagnostic skills that evaluate a draft problem statement without rewriting it. Run lenses in order (1→6); run Jacobs when a rubric score against Jacobs (2011) is needed. For the whole protocol at once, `problem-statement-review` dispatches the `problem-statement-review` agent, which runs all six lenses in a fresh context and returns one memo.
 
 | Skill | Trigger Phrases | Purpose |
 |---|---|---|
+| `problem-statement-review` | "run all the lenses," "full review," "complete lens protocol," "committee read," "what would a committee say" | Dispatch the independent review agent; lenses 1–6 in fixed order, one consolidated memo; never rewrites |
 | `jacobs-problem-statement-evaluator` | "Jacobs model," "problem statement rubric," "is my problem statement ready," "score my problem statement," "critique my problem statement" | Score a draft against the Jacobs (2011) model using a rubric; diagnose and ask guiding questions without rewriting |
 | `lens-1-mirror` | "run the mirror," "restate my problem statement," "what does my draft actually say," "list the claims" | Reflect the draft back without evaluating or improving it — run before any other lens |
 | `lens-2-anatomy` | "run the anatomy," "check the four functions," "does my problem statement do everything," "map against required parts" | Map the text against the four functions a problem statement must perform; mark ABSENT where missing |
@@ -106,6 +107,7 @@ Diagnostic skills that evaluate a draft problem statement without rewriting it. 
 | `knowledge-gap-journal` | "what don't I know," "knowledge gaps," "things to explore," "open questions" | Maintain a running journal of open questions and knowledge gaps to drive purposeful reading |
 | `source-log` | "track my sources," "source tracker," "annotated bibliography," "what have I read" | Build and maintain an annotated source log with relevance ratings and synthesis notes |
 | `idea-capture` | "I just had an idea," "capture this thought," "quick note," "shower thought," "don't forget this" | Quickly format and file a raw idea into a retrievable, linkable knowledge artifact |
+| `setup` | "set up," "set me up," "start here," "update my profile," "you keep asking me the same questions" | Write or update the Learner Profile that every skill reads first |
 | `license-check` | "is my license valid," "subscription status," "do I need to renew," "license token" | Soft-check subscriber access — honesty tooling, not DRM |
 
 ---
@@ -128,6 +130,12 @@ Diagnostic skills that evaluate a draft problem statement without rewriting it. 
 - Always ask: *what does the learner need to remember, decide, or do next?* Surface that explicitly.
 - Prefer reusable artifacts over one-time answers: templates, frameworks, checklists, and outlines.
 
+### Learner Profile (read first)
+The SessionStart hook (`hooks/hooks.json` → `scripts/load-profile.sh`) prints `~/.doctoral-brain/profile.md` (or `./.doctoral-brain/profile.md`, which wins) into context as a `<doctoral-brain-learner-profile>` block. Every skill opens with the same note: use the profile's degree type, field, phase, methodology, framework, style guide, and committee preferences without re-asking; ask only for what the skill needs that the profile lacks; a message from the learner in the conversation overrides the profile. If no profile is in context and a skill needs those facts, offer `/doctoral-brain:setup` once and continue with what the learner gives.
+
+### Self-check on drafting skills
+The drafting skills (`problem-statement`, `research-questions`, `literature-review`, `chapter-draft`, `introduction-chapter`, `methods-chapter`, `dissertation-conclusions`, `abstract-writer`) end with a required *Self-check* section: re-read the draft as the committee reader, score it against the skill's own checklist, fix what needs no learner input, flag the rest, and close the output with the Self-check block (Passed / Fixed / Flagged for the learner / Confidence). An output from one of these skills without that block is incomplete.
+
 ### Dissertation Phase Awareness
 Adapt skill depth and emphasis based on the learner's current phase:
 - **Phase 1 — Foundations:** Coursework, identifying interests, building literature base, narrowing the problem space.
@@ -143,6 +151,7 @@ When evaluating a draft problem statement with the lens skills:
 3. Run `lens-6-adversarial-committee` last only after earlier lenses have been used (or warn if they have not).
 4. Lens skills diagnose and surface issues — they do **not** rewrite the student's problem statement.
 5. Use `jacobs-problem-statement-evaluator` when a scored Jacobs (2011) rubric is requested (especially for DBA contexts).
+6. When the learner wants the whole protocol, use `problem-statement-review`: it dispatches the `problem-statement-review` agent (`agents/problem-statement-review.md`) so the order is enforced structurally and the reviewer has not seen the drafting. The agent returns one memo; present it unchanged.
 
 ### Subscription awareness
 This plugin is distributed to **paying individual subscribers**. If the learner asks about access, renewals, or a missing `DOCTORAL_BRAIN_LICENSE_TOKEN`, invoke `license-check`. Do not claim local files can be remotely disabled. GitHub team access is what gates installs and updates.
@@ -157,14 +166,12 @@ Each skill lives in its own folder under `skills/<skill-name>/SKILL.md`. When a 
 ```yaml
 ---
 name: skill-name
-description: One-sentence description of what this skill does.
-triggers:
-  - phrase 1
-  - phrase 2
-phase: [foundations | proposal | collection | analysis | defense | all]
-output_type: [draft | framework | checklist | template | plan | reflection]
+description: One sentence on what the skill does, followed by the situations and phrases that should trigger it.
+when_to_use: Use when the learner ... (optional; older skills carry triggers here)
 ---
 ```
+
+Immediately under the H1, every skill (except `setup` and `license-check`) carries the standard *Learner Profile* note.
 
 ### Skill File Index
 
@@ -197,6 +204,7 @@ output_type: [draft | framework | checklist | template | plan | reflection]
 **Problem Statement Evaluation**
 | Skill | File |
 |-------|------|
+| `problem-statement-review` | `skills/problem-statement-review/SKILL.md` (agent: `agents/problem-statement-review.md`) |
 | `jacobs-problem-statement-evaluator` | `skills/jacobs-problem-statement-eval/SKILL.md` |
 | `lens-1-mirror` | `skills/problem-statement-lens-1-mirror/SKILL.md` |
 | `lens-2-anatomy` | `skills/problem-statement-lens-2-anatomy/SKILL.md` |
@@ -248,6 +256,7 @@ output_type: [draft | framework | checklist | template | plan | reflection]
 | `knowledge-gap-journal` | `skills/knowledge-gap-journal/SKILL.md` |
 | `source-log` | `skills/source-log/SKILL.md` |
 | `idea-capture` | `skills/idea-capture/SKILL.md` |
+| `setup` | `skills/setup/SKILL.md` |
 | `license-check` | `skills/license-check/SKILL.md` |
 
 ---
@@ -259,13 +268,22 @@ doctoral-second-brain/
 ├── CLAUDE.md                         ← This file — plugin instructions and skill registry
 ├── LICENSE                           ← Commercial EULA (subscribers only)
 ├── TERMS.md
-├── apps/billing/                     ← Stripe entitlements + GitHub access
+├── apps/billing/                     ← Stripe entitlements + GitHub access; serves /install.sh and /install.ps1
+│   └── installers/                   ← One-line installer templates
+├── agents/
+│   └── problem-statement-review.md   ← Independent six-lens reviewer (subagent)
+├── hooks/
+│   └── hooks.json                    ← SessionStart: load the Learner Profile
+├── scripts/
+│   └── load-profile.sh
 ├── .claude-plugin/
 │   ├── plugin.json                   ← Plugin metadata
 │   └── marketplace.json              ← Marketplace listing
 └── skills/
+    ├── setup/SKILL.md                ← Writes ~/.doctoral-brain/profile.md
     ├── research-gap/SKILL.md
     ├── problem-statement/SKILL.md
+    ├── problem-statement-review/SKILL.md
     ├── jacobs-problem-statement-eval/SKILL.md
     ├── problem-statement-lens-1-mirror/SKILL.md
     ├── problem-statement-lens-2-anatomy/SKILL.md
@@ -331,6 +349,14 @@ doctoral-second-brain/
 **Stress-testing a problem statement:**
 > "Here's my draft problem statement. Run the mirror, then the evidence audit."
 → Invoke `lens-1-mirror`, then `lens-3-evidence-audit` — reflect claims, then classify evidence strength.
+
+**Full problem-statement review:**
+> "Here's my draft. Run all the lenses and tell me what a committee would say."
+→ Invoke `problem-statement-review` — dispatch the review agent; present its memo unchanged.
+
+**First session:**
+> "I just installed this. Where do I start?"
+→ Invoke `setup` — write the Learner Profile, then point to the first skill for their phase.
 
 **Building a writing session:**
 > "I have 90 minutes. I need to write the conceptual framework section."
