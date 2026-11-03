@@ -8,6 +8,8 @@ output_type: [draft, framework, checklist, template, plan]
 
 # Dissertation Proposal Writing & Defense: Crafting & Defending Your Research Plan
 
+> **Learner Profile.** If a `<doctoral-brain-learner-profile>` block is in context, take degree type, field, phase, methodology, framework, style guide, and committee preferences from it and do not ask for them. Ask only for what this skill needs that the profile lacks. A message from the learner in this conversation overrides the profile. If no profile is in context and this skill needs those facts, offer `/doctoral-brain:setup` once, then continue with what the learner gives you.
+
 Your dissertation proposal is your research contract with your committee: it says "here's what I'm going to study, here's why, here's how, and here's what I expect to find." This skill guides you through writing a compelling, rigorous proposal and then defending it—answering questions, addressing concerns, and demonstrating that you've thought through the work ahead.
 
 ## Part 1: The Dissertation Proposal's Purpose

@@ -6,6 +6,8 @@ when_to_use: Use when the user wants to set doctoral or dissertation goals, defi
 
 # Goal Setting
 
+> **Learner Profile.** If a `<doctoral-brain-learner-profile>` block is in context, take degree type, field, phase, methodology, framework, style guide, and committee preferences from it and do not ask for them. Ask only for what this skill needs that the profile lacks. A message from the learner in this conversation overrides the profile. If no profile is in context and this skill needs those facts, offer `/doctoral-brain:setup` once, then continue with what the learner gives you.
+
 ## Purpose
 Help the learner set clear, tiered doctoral goals — from semester-level vision down to weekly priorities — so that every week's work is in service of a larger, deliberate plan.
 

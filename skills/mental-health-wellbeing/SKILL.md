@@ -8,6 +8,8 @@ output_type: [reflection, framework, checklist, plan]
 
 # Mental Health & Wellbeing: Navigating the Emotional PhD
 
+> **Learner Profile.** If a `<doctoral-brain-learner-profile>` block is in context, take degree type, field, phase, methodology, framework, style guide, and committee preferences from it and do not ask for them. Ask only for what this skill needs that the profile lacks. A message from the learner in this conversation overrides the profile. If no profile is in context and this skill needs those facts, offer `/doctoral-brain:setup` once, then continue with what the learner gives you.
+
 The doctoral journey is not just an intellectual pursuit—it's an emotional, psychological, and physical one. The structure is ambiguous, the timeline uncertain, and the self-doubt is real. This skill acknowledges the mental health challenges inherent in doctoral study and provides practical strategies for building resilience, managing stress, and sustaining wellbeing across your program.
 
 ## Part 1: Understanding Doctoral Mental Health

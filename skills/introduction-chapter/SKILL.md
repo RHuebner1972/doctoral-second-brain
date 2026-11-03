@@ -8,6 +8,8 @@ output_type: [draft, framework, template, checklist]
 
 # Chapter 1: Introduction—Framing Your Study
 
+> **Learner Profile.** If a `<doctoral-brain-learner-profile>` block is in context, take degree type, field, phase, methodology, framework, style guide, and committee preferences from it and do not ask for them. Ask only for what this skill needs that the profile lacks. A message from the learner in this conversation overrides the profile. If no profile is in context and this skill needs those facts, offer `/doctoral-brain:setup` once, then continue with what the learner gives you.
+
 Your Introduction (Chapter 1) is the reader's first impression. It must do three things simultaneously: hook them ("Why should I care?"), contextualize the problem ("What's the bigger picture?"), and set up your study ("Here's what I'm studying and why"). This skill guides you through crafting an Introduction that compels reading and frames your entire dissertation.
 
 ## Part 1: The Architecture of an Effective Introduction
@@ -403,3 +405,18 @@ Chapter 1 is your opportunity to frame your entire study. It says: "Here's a pro
 6. **Be confident** — Write with conviction in your study's value
 
 Your Introduction sets the tone for the entire dissertation. Make it compelling, clear, and confident.
+
+## Self-check — required before you hand this back
+
+Run this after drafting Chapter 1 and before writing the output. The output is incomplete without the Self-check block.
+
+1. Re-read the Chapter 1 draft once as the committee reader, not the writer.
+2. Score it against **Part 4: Revision Checklist for Chapter 1** above, item by item.
+3. For each item that fails: fix it in the draft if the fix needs nothing from the learner; otherwise leave the draft alone and record it as a flag.
+4. Close the output with the Self-check block in exactly this shape:
+
+**Self-check**
+- Passed: <the items that pass, comma-separated>
+- Fixed: <one line per change you made and why; "none" if nothing>
+- Flagged for the learner: <one line per item you could not resolve without their input; "none" if nothing>
+- Confidence: <High | Medium | Low> — <one sentence on what would raise it>

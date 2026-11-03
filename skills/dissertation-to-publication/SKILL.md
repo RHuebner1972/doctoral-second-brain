@@ -8,6 +8,8 @@ output_type: [plan, framework, template, checklist]
 
 # Dissertation to Publication: Repurposing, Publishing, and Amplifying Your Research
 
+> **Learner Profile.** If a `<doctoral-brain-learner-profile>` block is in context, take degree type, field, phase, methodology, framework, style guide, and committee preferences from it and do not ask for them. Ask only for what this skill needs that the profile lacks. A message from the learner in this conversation overrides the profile. If no profile is in context and this skill needs those facts, offer `/doctoral-brain:setup` once, then continue with what the learner gives you.
+
 Your dissertation is not the end of your research contribution—it's the beginning. This skill guides you through converting chapters into publications, selecting appropriate venues, navigating peer review, and building a publication strategy that establishes you as a researcher in your field.
 
 ## Why Convert Your Dissertation to Publications?

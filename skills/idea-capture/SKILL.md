@@ -6,6 +6,8 @@ when_to_use: Use when the user has a sudden idea, wants to capture a thought qui
 
 # Idea Capture
 
+> **Learner Profile.** If a `<doctoral-brain-learner-profile>` block is in context, take degree type, field, phase, methodology, framework, style guide, and committee preferences from it and do not ask for them. Ask only for what this skill needs that the profile lacks. A message from the learner in this conversation overrides the profile. If no profile is in context and this skill needs those facts, offer `/doctoral-brain:setup` once, then continue with what the learner gives you.
+
 ## Purpose
 Instantly format a raw idea — however rough — into a structured, retrievable artifact that connects to the dissertation and doesn't get lost.
 
